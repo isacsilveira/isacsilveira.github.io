@@ -10,7 +10,7 @@ Sou estudante de Ciência da Computação e esse é meu site pessoal 🌐
 <div class="card">
   <h2>✨ Sobre mim</h2>
   <ul>
-    <li>🎓Estudante de Ciência da Computação.</li>
+    <li>🎓Estudante de Ciência da Computação na UNIFAL.</li>
     <li>💡Apaixonada por tecnologia, criatividade e aprender coisas novas.</li>
     <li>🎮Gosto de jogar.</li>
     <li>🏐 Pratico vôlei — esporte + diversão sempre!</li>
@@ -21,7 +21,7 @@ Sou estudante de Ciência da Computação e esse é meu site pessoal 🌐
 </div>
 
 <div class="card">
-  <h2>📚 Disciplinas que estou cursando e Projetos</h2>
+  <h2>📚 Disciplinas que estou cursando</h2>
   <ul>
     <li>AEDs III</li>
     <li>Ética Computador e Sociedade</li>
@@ -35,6 +35,6 @@ Sou estudante de Ciência da Computação e esse é meu site pessoal 🌐
 <div class="card">
   <h2>💻 Projetos</h2>
   <ul>
-     p = Para explorar meus projetos, acesse: github.com/isacsilveira 🌐✨
+     Para explorar meus projetos, acesse: github.com/isacsilveira 🌐✨
   </ul>
 </div>
