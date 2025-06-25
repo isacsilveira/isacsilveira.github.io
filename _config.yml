@@ -1,2 +1,4 @@
-title: Isa Cristina
 theme: minima
+
+sass:
+  style: compressed
