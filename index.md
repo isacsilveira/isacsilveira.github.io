@@ -5,7 +5,7 @@ title: Página Inicial
 
 # Oi! Eu sou a Isa 👋
 
-Sou estudante de Ciência da Computação e esse é meu cantinho na internet 🌐
+Sou estudante de Ciência da Computação e esse é meu site pessoal 🌐
 
 <div class="card">
   <h2>✨ Sobre mim</h2>
@@ -30,6 +30,11 @@ Sou estudante de Ciência da Computação e esse é meu cantinho na internet �
     <li>Matemática Discreta</li>
     <li>Programação Funcional</li>
   </ul>
-  <h1>💻 Projetos</h1>
-  p = Para explorar meus projetos, acesse: github.com/isacsilveira 🌐✨
+</div>
+
+<div class="card">
+  <h2>💻 Projetos</h2>
+  <ul>
+     p = Para explorar meus projetos, acesse: github.com/isacsilveira 🌐✨
+  </ul>
 </div>
