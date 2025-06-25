@@ -7,8 +7,8 @@ title: Página Inicial
 
 Bem-vinda(o) ao meu site pessoal!
 
-Aqui você pode conhecer um pouco mais sobre mim e minha faculdade.
+Aqui você pode conhecer um pouco mais sobre mim e meus projetos.
 
 ---
 
-[Sobre mim](/sobre) | [Faculdade](/faculdade)
+[Sobre mim](/sobre) | [Projetos](/projetos)
