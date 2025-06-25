@@ -5,12 +5,7 @@ title: Sobre Mim
 
 # Sobre Mim
 
-Meu nome é Isabella Cristina da Silveira.  
-
-Sou estudante de Ciência da Computação na UNIFAL, apaixonada por tecnologia! 💖
-
-Meus hobbies incluem jogar, academia, vôlei e criar vídeos para o TikTok.
+Sou Isa Cristina 💖 Estudante de Ciência da Computação, criativa, curiosa e apaixonada por tecnologia e estética rosa! 🌸
 
 ---
-
-[Voltar para a página inicial](/) | [Projetos](/projetos)
+[Voltar para a página inicial](/)
