@@ -13,10 +13,11 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Navbar com 10% da altura da tela */
 .navbar {
   background-color: #222;
   color: white;
-  padding: 0 0; /* padding vertical removido para controle total */
+  height: 10vh;
   position: fixed;
   top: 0;
   width: 100%;
@@ -24,21 +25,25 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   font-size: 13px;
   display: flex;
-  align-items: center; /* alinha verticalmente os textos */
-  height: 10vh; /* altura proporcional à tela */
+  align-items: center;
 }
 
+/* Container interno da navbar */
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  justify-content: space-between; /* garante que título fique à esquerda e nav à direita */
-  align-items: center;
-  width: 100%;
 }
 
 /* Título do site */
+.site-title {
+  margin: 0;
+}
+
 .site-title a {
   color: white;
   text-decoration: none;
@@ -48,13 +53,16 @@ body {
 }
 
 /* Menu de navegação */
+.menu {
+  display: flex;
+  gap: 16px; /* espaço entre os links */
+}
+
 .menu a {
   color: white;
-  margin-left: 12px;
   text-decoration: none;
   font-weight: normal;
   font-size: 0.9em;
-  line-height: 1;
   padding: 2px;
 }
 
