@@ -28,7 +28,6 @@ body {
   height: 10vh; /* altura proporcional à tela */
 }
 
-/* Container centralizado */
 .container {
   max-width: 960px;
   margin: 0 auto;
