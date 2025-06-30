@@ -1,28 +1,37 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Corpo do site */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding-top: 50px; /* espaço para a navbar mais fina */
+  padding-top: 36px; /* espaço exato para a navbar fina */
   background-color: #f4f4f4;
 }
 
-/* Navbar fixa no topo */
+/* Navbar fininha */
 .navbar {
-  background-color: #333;
+  background-color: #222;
   color: white;
-  padding: 8px 0; /* altura da navbar reduzida */
+  padding: 4px 0; /* altura reduzida ao máximo */
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 999;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 13px; /* fonte menor */
+  height: 32px;
 }
 
-/* Container centralizado da navbar */
+/* Container centralizado */
 .container {
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,19 +41,20 @@ body {
 .site-title a {
   color: white;
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: bold;
-  margin: 0;
+  line-height: 1;
 }
 
-/* Links do menu */
+/* Menu de navegação */
 .menu a {
   color: white;
-  margin-left: 20px;
+  margin-left: 12px;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.95em;
-  transition: color 0.3s;
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 1;
+  padding: 2px;
 }
 
 .menu a:hover {
@@ -57,14 +67,14 @@ body {
   margin: auto;
   padding: 20px;
   background-color: white;
-  border-radius: 6px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
 }
 
 /* Rodapé */
 .footer {
   text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
+  padding: 15px;
+  font-size: 0.8em;
   color: #666;
 }
