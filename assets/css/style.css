@@ -9,14 +9,14 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding-top: 36px; /* espaço exato para a navbar fina */
+  padding-top: 10vh; /* corresponde à altura da navbar */
   background-color: #f4f4f4;
 }
 
 .navbar {
   background-color: #222;
   color: white;
-  padding: 4px 0;
+  padding: 0 0; /* padding vertical removido para controle total */
   position: fixed;
   top: 0;
   width: 100%;
@@ -25,7 +25,7 @@ body {
   font-size: 13px;
   display: flex;
   align-items: center; /* alinha verticalmente os textos */
-  min-height: 32px; /* deixa fino sem cortar conteúdo */
+  height: 10vh; /* altura proporcional à tela */
 }
 
 /* Container centralizado */
