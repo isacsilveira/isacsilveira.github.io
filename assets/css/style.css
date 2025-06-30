@@ -1,14 +1,16 @@
+/* Corpo do site */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding-top: 50px; /* espaço para a navbar */
+  padding-top: 50px; /* espaço para a navbar mais fina */
   background-color: #f4f4f4;
 }
 
+/* Navbar fixa no topo */
 .navbar {
   background-color: #333;
   color: white;
-  padding: 8px 0;
+  padding: 8px 0; /* altura da navbar reduzida */
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,40 +18,50 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+/* Container centralizado da navbar */
 .container {
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Título do site */
 .site-title a {
   color: white;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0;
 }
 
+/* Links do menu */
 .menu a {
   color: white;
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 0.95em;
+  transition: color 0.3s;
 }
 
 .menu a:hover {
   color: #00aced;
 }
 
+/* Conteúdo principal */
 .content {
   max-width: 800px;
   margin: auto;
   padding: 20px;
   background-color: white;
   border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 
+/* Rodapé */
 .footer {
   text-align: center;
   padding: 20px;
