@@ -13,18 +13,19 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Navbar fininha */
 .navbar {
   background-color: #222;
   color: white;
-  padding: 4px 0; /* altura reduzida ao máximo */
+  padding: 4px 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  font-size: 13px; /* fonte menor */
-  height: 32px;
+  font-size: 13px;
+  display: flex;
+  align-items: center; /* alinha verticalmente os textos */
+  min-height: 32px; /* deixa fino sem cortar conteúdo */
 }
 
 /* Container centralizado */
