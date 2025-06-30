@@ -8,24 +8,31 @@
 </head>
 <body>
 
-<header class="navbar">
-  <div class="container">
-    <h1 class="site-title"><a href="/">Isac Silveira</a></h1>
-    <nav class="menu">
-      <a href="/">Início</a>
-      <a href="/projetos/">Projetos</a>
-      <a href="/contato/">Contato</a>
-    </nav>
-  </div>
-</header>
+  <div class="wrapper">
 
-  <main class="content">
-    {{ content }}
-  </main>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="site-title"><a href="/">Isac Silveira</a></h1>
+        <nav class="menu">
+          <a href="/">Início</a>
+          <a href="/projetos/">Projetos</a>
+          <a href="/contato/">Contato</a>
+        </nav>
+      </div>
+    </header>
 
-  <footer class="footer">
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-  </footer>
+    <!-- Conteúdo -->
+    <main class="content">
+      {{ content }}
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+
+  </div> <!-- fim do .wrapper -->
 
 </body>
 </html>
