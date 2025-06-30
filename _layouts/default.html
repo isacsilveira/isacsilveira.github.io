@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 </head>
 <body>
+
   <header class="navbar">
     <div class="container">
       <h1 class="site-title"><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
@@ -23,7 +25,8 @@
   </main>
 
   <footer class="footer">
-    <p>&copy; {{ site.title }} - {{ site.time | date: "%Y" }}</p>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
+
 </body>
 </html>
