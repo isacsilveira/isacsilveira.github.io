@@ -79,7 +79,7 @@ html, body {
 
 /* Conteúdo principal */
 .content {
-  max-width: 800px;
+  max-width: 100%;
   margin: auto;
   padding: 20px;
   background-color: white;
