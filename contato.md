@@ -4,12 +4,6 @@ title: Contato
 permalink: /contato/
 ---
 
----
-layout: default
-title: Contato
-permalink: /contato/
----
-
 <div class="contact-section">
   <h2 class="section-title">Vamos nos conectar!</h2>
   <p class="contact-subtitle">Me acompanhe nas redes ou envie um e-mail. Ficarei feliz em conversar com você! ✨</p>
