@@ -142,7 +142,7 @@ html, body {
 
 .projects-section h2 {
   font-size: 2rem;
-  color: #ff69b4;
+  color: ;
   margin-bottom: 30px;
 }
 
@@ -188,9 +188,12 @@ html, body {
 
 /* Título com rosa elegante nos projetos */
 .section-title {
-  color: #ffb6c1;
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
+  background: linear-gradient(90deg, #ffb6c1 0%, #ff69b4 50%, #ffb6c1 100%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05);
   font-weight: 700;
   text-align: center;
   margin-bottom: 30px;
