@@ -82,7 +82,7 @@ html, body {
   max-width: 100%;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+  background-color: white;
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0,0,0,0.05);
   flex: 1; /* empurra o footer para baixo */
