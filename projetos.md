@@ -4,8 +4,9 @@ title: Projetos
 permalink: /projetos/
 ---
 
+</div>
 <div style="text-align: center;">
-  <h1 class="gradient-text">Meus projetos</h1>
+  <h2 class="gradient-text">Meus projetos</h2>
 </div>
 
     <div class="project-card">
