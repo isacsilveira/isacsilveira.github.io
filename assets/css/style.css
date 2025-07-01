@@ -116,7 +116,7 @@ html, body {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #ff69b4, #ffb6c1);
+  background: linear-gradient(90deg, #ffb6c1 0%, #ff69b4 50%, #ffb6c1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05);
@@ -124,7 +124,7 @@ html, body {
 
 /* Subtítulo mais profissional */
 .welcome-subtitle {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: #555;
   max-width: 700px;
   line-height: 1.6;
