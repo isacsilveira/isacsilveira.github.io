@@ -80,7 +80,7 @@ html, body {
 /* Conteúdo principal */
 .content {
   max-width: 100%;
-  margin: auto;
+  margin: 0;
   padding: 20px;
   background-color: white;
   border-radius: 4px;
