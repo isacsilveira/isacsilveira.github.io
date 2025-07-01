@@ -9,7 +9,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   background-color: #f4f4f4;
 }
 
@@ -113,8 +113,9 @@ html, body {
 
 /* Título com degradê elegante */
 .gradient-text {
+  font-family: 'Playfair Display', serif;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 700;
   background: linear-gradient(90deg, #ff69b4, #ffb6c1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
